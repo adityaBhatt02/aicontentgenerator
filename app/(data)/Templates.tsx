@@ -169,4 +169,39 @@ export default[
                         },
                     ]
                     },
-]
+
+
+                    {
+                        name : 'Text Improver',
+                        desc : 'This handy tool refines your writing , elimates error , enhances writing by improving clarity, grammar, tone, and readability',
+                        category : 'Writing Assistant',
+                        icon : 'https://cdn-icons-png.flaticon.com/128/12860/12860749.png',
+                        aiPrompt : 'Enhance the following text by improving clarity, grammar, tone, and readability while preserving its original meaning: [Insert Text Here]. Make it more engaging and professional if needed',
+                        slug : 'text-improver',
+                        form: [
+                            {
+                                label:'Enter text that you want to re-write or improve',
+                                field:'textarea',
+                                name:'textToImprove',
+                            },
+                        ]
+
+                        },
+                        {
+                            name : 'Instagram Post Generator',
+                            desc : 'This handy tool refines your writing , elimates error , enhances writing by improving clarity, grammar, tone, and readability',
+                            category : 'blog',
+                            icon : 'https://cdn-icons-png.flaticon.com/128/5692/5692184.png',
+                            aiPrompt : 'Generator 3 Instagram post depends on a given keyword',
+                            slug : 'instagram-post-generator',
+                            form: [
+                                {
+                                    label:'Enter Keywords for your post',
+                                    field:'imput',
+                                    name:'keywords',
+                                    required : true
+                                }
+                            ]
+                            }
+                    ]
+                      
